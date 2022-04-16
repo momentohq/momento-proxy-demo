@@ -23,11 +23,11 @@ endpoints = [
 [connection]
 # the number of connections to each endpoint from each thread, the total number
 # of connections to each endpoint is: poolsize * threads
-poolsize = 2
+poolsize = 25
 
 [request]
 # set a global ratelimit for requests
-ratelimit = 2000
+ratelimit = 50000
 
 [[keyspace]]
 # controls what commands will be used in this keyspace
